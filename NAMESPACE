@@ -1,0 +1,7 @@
+export(seq_BOLD, read_seq_txt, seq_funbarRF, seq_funbarRF_BOLD, seq_funbarRF_manual, predict_train_funbarRF, predict_test_funbarRF, encGPC)
+import(bold,randomForest, Biostrings, BioSeqClass)
+importFrom("stats", "predict")
+importFrom("utils", "read.csv", "write.table")
+importFrom("utils", "data")
+
+
