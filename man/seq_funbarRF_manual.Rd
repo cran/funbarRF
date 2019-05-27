@@ -5,7 +5,7 @@
 Conversion of barcode sequences manually collected from BOLD database into numeric features based on gap pair compositions.
 }
 \description{
-This function resulted in similar output as that of \code{\link{seq_funbarRF}} and \code{\link{seq_funbarRF_BOLD}} functions. The only difference is in input sequences.
+This function resulted in similar output as that of \code{\link{seq_funbarRF}} function. The only difference is in input sequences.
 To execute this function, the user has to collect the barcode sequences manually from the BOLD database and the same has to be supplied as input to this function.
 }
 \usage{seq_funbarRF_manual (manual_seq)}
@@ -15,7 +15,7 @@ To execute this function, the user has to collect the barcode sequences manually
 
 }
 }
-\details{ This function is a supplemnt to the \code{\link{seq_funbarRF}} and \code{\link{seq_funbarRF_BOLD}} functions for mapping the manually collected barcode sequences from BOLD database into numeric feature vectors based on gap-pair compositional features.
+\details{ This function is a supplemnt to the \code{\link{seq_funbarRF}} function for mapping the manually collected barcode sequences from BOLD database into numeric feature vectors based on gap-pair compositional features.
 
 }
 \value{
@@ -39,7 +39,7 @@ Prabina Kumar Meher, Division of Statistical Genetics,Indian Agricultural Statis
 
 
 \seealso{
-\code{\link{seq_funbarRF}},  \code{\link{seq_funbarRF_BOLD}},  \code{\link{data_barcode}},  \code{\link{featureGapPairComposition}}
+\code{\link{seq_funbarRF}},  \code{\link{data_barcode}},  \code{\link{featureGapPairComposition}}
 }
 \examples{
 

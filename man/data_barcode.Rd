@@ -13,8 +13,7 @@ This dataset consists of barcode sequences for both reference and query sets per
 These datasets have been used in earlier studies for the species identificatin using DNA barcode sequences.
 }
 \source{
-These datasets can be retrieved from \url{ http://dmb.iasi.cnr.it/blog.php }.
-Also, can be obtained from \url{ http://cabgrid.res.in:8080/spidbar/Dataset/ED-I/ }.
+These datasets can be retrieved from \url{ http://cabgrid.res.in:8080/spidbar/Dataset/ED-I/ }.
 }
 \references{
 \enumerate{

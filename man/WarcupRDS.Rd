@@ -5,7 +5,7 @@
 Warcup training dataset which is trained with funbarRF.
 }
 \description{
-The RDP Warcup ITS training set was retrieved from \url{https://sourceforge.net/projects/rdp-classifier/ }. The collected dataset comprises 17878 sequences belonging to 8551 species. After removing the 2262 singletons, a final dataset comprising 15616 sequences belonging to 6289 species was prepared.
+The RDP Warcup ITS training set was retrieved from \url{https://rdp.cme.msu.edu/classifier/classifier.jsp}. The collected dataset comprises 17878 sequences belonging to 8551 species. After removing the 2262 singletons, a final dataset comprising 15616 sequences belonging to 6289 species was prepared.
 
 }
 \usage{data (WarcupRDS)}
@@ -14,7 +14,7 @@ The RDP Warcup ITS training set was retrieved from \url{https://sourceforge.net/
 This dataset can be used to train the Random Forest prediction model in a local server after installing the \strong{funbarRF} package, which can be subsequently used for prediction of the species labels for unknown specimen. For predicting the species labels of unknown specimen, see examples section.
 }
 \source{
-RDP classifier Warcup ITS training dataset (\url{ https://sourceforge.net/projects/rdp-classifier/ })
+RDP classifier Warcup ITS training dataset (\url{https://rdp.cme.msu.edu/classifier/classifier.jsp} )
 }
 \references{
 \enumerate{

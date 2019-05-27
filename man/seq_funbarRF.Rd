@@ -36,7 +36,7 @@ Prabina Kumar Meher, Division of Statistical Genetics,Indian Agricultural Statis
 }
 
 \seealso{ 
-\code{\link{seq_funbarRF_manual}},  \code{\link{seq_funbarRF_BOLD}},  \code{\link{featureGapPairComposition}}
+\code{\link{seq_funbarRF_manual}},  \code{\link{featureGapPairComposition}}
 
 }
 \examples{

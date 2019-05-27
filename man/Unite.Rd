@@ -5,7 +5,7 @@
 UNITE training dataset of 143723 sequences belonging to 9001 species.
 }
 \description{
-The UNITE training dataset used in the RDP classifier was obtained from \url{https://sourceforge.net/projects/rdp-classifier/ }. In the collected dataset, 145019 ITS sequences belonging to 10297 species were present.
+The UNITE training dataset used in the RDP classifier was obtained from \url{https://rdp.cme.msu.edu/classifier/classifier.jsp } In the collected dataset, 145019 ITS sequences belonging to 10297 species were present.
 After removing 1296 species with single sequences, a dataset comprising of 143723 sequences belonging to 9001 species was prepared. This dataset can be used to train the prediction model using the proposed approach i.e., gap-pair compositional features and Random Forest method.
 We couldnot able to train the model with UNITE training dataset due to lack of super computing facility.
 However, the user can use this dataset to train the model in local server, details of which is provided in details section.

@@ -9,7 +9,7 @@ Generally, training or reference dataset is used to train the model and not for 
 
 \arguments{
   \item{object}{
-An object created by the function \code{\link{seq_funbarRF}} or \code{\link{seq_funbarRF_manual}} or \code{\link{seq_funbarRF_BOLD}}. 
+An object created by the function \code{\link{seq_funbarRF}} or \code{\link{seq_funbarRF_manual}} . 
 }
   \item{m_try}{
 This parameter is required for \code{\link{randomForest}}. It represents the number of variables to be randomly sampled at each split. Default value is 10.
@@ -59,12 +59,6 @@ prd1 <- predict_train_funbarRF (object=tr_ss, m_try=10, n_tree=500)
 # kindly use large number of n_tree
 print(prd1)
 
-############################
-tr_bold <- seq_BOLD (taxon="Campylospora")
-tr_seq <- seq_funbarRF_BOLD (object3=tr_bold)
-prd <- predict_train_funbarRF (object=tr_seq, m_try=10, n_tree=20) 
-# kindly use large number of n_tree
-print(prd)
 }
 }
 

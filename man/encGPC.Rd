@@ -5,7 +5,7 @@
 Encoding barcode sequences using gap-pair compositional features.
 }
 \description{
-This function can be used for encoding the barcode sequences with gap-pair compositional features. This is an alternative function to \code{\link{seq_funbarRF}}, \code{\link{seq_funbarRF_BOLD}} and \code{\link{seq_funbarRF_manual}} functions.
+This function can be used for encoding the barcode sequences with gap-pair compositional features. This is an alternative function to \code{\link{seq_funbarRF}} and \code{\link{seq_funbarRF_manual}} functions.
 }
 \usage{
 encGPC (bar_seq)
@@ -35,7 +35,7 @@ Prabina Kumar Meher, Division of Statistical Genetics,Indian Agricultural Statis
 }
 
 \seealso{
-\code{\link{seq_funbarRF}},  \code{\link{seq_funbarRF_BOLD}},  \code{\link{seq_funbarRF_manual}}
+\code{\link{seq_funbarRF}},  \code{\link{seq_funbarRF_manual}}
 }
 \examples{
 data (fun_dat)

@@ -11,10 +11,10 @@ This function can be used for predicting the species labels for the fungal barco
 
 \arguments{
   \item{object1}{
-An object created by the function \code{\link{seq_funbarRF}} or \code{\link{seq_funbarRF_manual}} or \code{\link{seq_funbarRF_BOLD}}, with \strong{reference dataset} as input.
+An object created by the function \code{\link{seq_funbarRF}} or \code{\link{seq_funbarRF_manual}} , with \strong{reference dataset} as input.
 }
   \item{object2}{
-An object created by the function \code{\link{seq_funbarRF}} or \code{\link{seq_funbarRF_manual}} or \code{\link{seq_funbarRF_BOLD}}, with \strong{query dataset} as input.
+An object created by the function \code{\link{seq_funbarRF}} or \code{\link{seq_funbarRF_manual}} , with \strong{query dataset} as input.
 }
   \item{m_try}{
 This parameter is required for \code{\link{randomForest}}. It represents the number (must be an integer) of variables to be randomly sampled at each split. Default value is 10.
